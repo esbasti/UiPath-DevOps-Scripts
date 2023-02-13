@@ -7,7 +7,7 @@ SYNTAX
     [-libraryOrchestratorFolder <folder>] [-language <language>]
 
 Examples:
-    . 'C:\scripts\UiPathPack.ps1' "C:\UiPath\Project\project.json" --destination_folder "C:\UiPath\Package"
+    . 'C:\scripts\UiPathPack.ps1' "C:\UiPath\Project\project.json" -destination_folder "C:\UiPath\Package"
     . 'C:\scripts\UiPathPack.ps1' "C:\UiPath\Project\project.json" -destination_folder "C:\UiPath\Package" -version 1.0.6820.22047
     . 'C:\scripts\UiPathPack.ps1' "C:\UiPath\Project\project.json" -destination_folder "C:\UiPath\Package" -autoVersion
     . 'C:\scripts\UiPathPack.ps1' "C:\UiPath\Project" -destination_folder "C:\UiPath\Package"
